@@ -37,12 +37,12 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
 ### 目录结构
 
 ```
-/usr/bin/nlplayrun               启动脚本(可配置启动参数)
-/usr/bin/nlplay                  主程序
+/usr/bin/nlplayrun                启动脚本(可配置启动参数)
+/usr/bin/nlplay                   主程序
 /etc/nlplay/simsun.ttc            默认字体文件
 /etc/nlplay/nlplay.pid            运行时进程ID
-/etc/ld.so.conf.d/00-nlplay.conf 关联库文件指向
-/usr/local/lib/...               关联库文件目录
+/etc/ld.so.conf.d/00-nlplay.conf  关联库文件指向
+/usr/local/lib/...                关联库文件目录
 ```
 
 ---
