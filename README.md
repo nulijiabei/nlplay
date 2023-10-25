@@ -130,7 +130,7 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
 > 只要满足LGPLv3的所有要求，LGPLv3即可保持您的应用程序源代码关闭。  
 > 该程序所涉及 Qt Core 满足 LGPL 要求  
 
-> SDL 与 SDL_ttf 和 SDL_image(libjpeg、libpng、zlib1) 和 SDL_net 使用许可 https://www.zlib.net/zlib_license.html  
+> SDL 与 SDL_ttf 使用许可 https://www.zlib.net/zlib_license.html  
 > 授予任何人出于任何目的使用此软件的权限，包括商业应用，并对其进行更改和重新分发  
 
 > FFmpeg 使用 GNU较小通用公共许可证(LGPL) 许可 http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html  
