@@ -37,7 +37,10 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
 ---
 ### 支持功能
 
-1. ...
+ 支持视频与图片播放, 支持横向（0°/180°）与纵向（90°/270°）显示
+ 支持序列（视频与图片）连续播放, 支持指定图片的持续时间 ...
+ 支持静音播放, 循环播放, 高性能解码, 等 ...
+ 支持指定显示位置与分辨率尺寸, 支持指定FPS帧率 ...
 
 ---
 ### 目录结构
@@ -85,17 +88,19 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  /usr/bin/nlplay -playloop -playobj /root/yiyezi.mp4 # 播放视频（循环）
  /usr/bin/nlplay -mute -playloop -playobj /root/yiyezi.mp4 # 播放视频（循环 and 静音）
  /usr/bin/nlplay -turbo -mute -playloop -playobj /root/yiyezi.mp4 # 播放视频（循环 and 静音 and 高性能）
- /usr/bin/nlplay -R 0,0,1920,1080 -fps 30 -playobj /root/yiyezi.mp4 # 播放视频（x,y,width,height and fps）
  ```
 
  | 参数 | 键 | 值 | 默认 | 说明 |
  | --- | --- | --- | --- | --- |
  | -playctl | ori | landscape/portrait | landscape | 横向/纵向（orientation） | 
  | ↑ | rot | landscape(0/180)、portrait(90/270) | 0 | 旋转（rotate） | 
+ | ↑ | dur | 秒 | 5 | 持续（duration） | 
  
  ```
  /usr/bin/nlplay -playctl "ori=landscape,rot=180" -playobj /root/yiyezi.mp4 # 播放视频（横向 and 旋转180°）
  /usr/bin/nlplay -playctl "ori=portrait,rot=270" -playobj /root/yiyezi.mp4 # 播放视频（纵向 and 旋转270°）
+ /usr/bin/nlplay -playctl "dur=10" -playobj /root/a.png,/root/b.png,/root/c.png # 序列播放（每张图片持续10秒）
+ /usr/bin/nlplay -playctl "dur=10" -playobj /root/a.png,/root/b.mp4,/root/c.png # 序列播放（每张图片持续10秒, 视频以实际时长为准）
  ```
 
 ---
