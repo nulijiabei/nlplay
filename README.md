@@ -98,8 +98,8 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  ```
  /usr/bin/nlplay -playctl "ori=landscape,rot=180" -playobj /root/yiyezi.mp4 # 播放视频（横向 and 旋转180°）
  /usr/bin/nlplay -playctl "ori=portrait,rot=270" -playobj /root/yiyezi.mp4 # 播放视频（纵向 and 旋转270°）
- /usr/bin/nlplay -playctl "dur=10" -playobj "/root/a.png,/root/b.png,/root/c.png" # 序列播放（每张图片持续10秒）
- /usr/bin/nlplay -playctl "dur=10" -playobj "/root/a.png,/root/b.mp4,/root/c.png" # 序列播放（每张图片持续10秒, 视频以实际时长为准）
+ /usr/bin/nlplay -playctl "dur=10" -playloop -playobj "/root/a.png,/root/b.png,/root/c.png" # 序列播放（每张图片持续10秒 and 循环播放）
+ /usr/bin/nlplay -playctl "dur=10" -playloop -playobj "/root/a.png,/root/b.mp4,/root/c.png" # 序列播放（每张图片持续10秒 and 循环播放）
  ```
 
 ---
