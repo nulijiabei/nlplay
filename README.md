@@ -86,12 +86,12 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  /usr/bin/nlplay -playobj /root/yiyezi.mp4 # 播放视频
  /usr/bin/nlplay -playobj "/root/a.mp4,/root/b.mp4" # 序列播放（视频）
  /usr/bin/nlplay -playobj "/root/a.jpg,/root/b.png" # 序列播放（图片）
- /usr/bin/nlplay -playloop -playobj /root/yiyezi.mp4 # 播放视频（循环）
- /usr/bin/nlplay -mute -playloop -playobj /root/yiyezi.mp4 # 播放视频（循环 and 静音）
- /usr/bin/nlplay -playloop -playobj "/root/a.mp4,/root/b.mp4" # 序列播放（视频 and 循环）
- /usr/bin/nlplay -playloop -playobj "/root/a.jpg,/root/b.png" # 序列播放（图片 and 循环）
- /usr/bin/nlplay -playloop -playobj "/root/a.mp4,/root/b.png" # 序列播放（视频、图片 and 循环）
- /usr/bin/nlplay -turbo -mute -playloop -playobj /root/yiyezi.mp4 # 播放视频（循环 and 静音 and 高性能）
+ /usr/bin/nlplay -playloop -playobj /root/yiyezi.mp4 # 播放视频（单循环）
+ /usr/bin/nlplay -mute -playloop -playobj /root/yiyezi.mp4 # 播放视频（单循环 and 静音）
+ /usr/bin/nlplay -playloop -playobj "/root/a.mp4,/root/b.mp4" # 序列播放（视频 and 多循环）
+ /usr/bin/nlplay -playloop -playobj "/root/a.jpg,/root/b.png" # 序列播放（图片 and 多循环）
+ /usr/bin/nlplay -playloop -playobj "/root/a.mp4,/root/b.png" # 序列播放（视频、图片 and 多循环）
+ /usr/bin/nlplay -turbo -mute -playloop -playobj /root/yiyezi.mp4 # 播放视频（单循环 and 静音 and 高性能）
  ```
 
  | 参数 | 键 | 值 | 默认 | 说明 |
@@ -103,8 +103,8 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  ```
  /usr/bin/nlplay -playctl "ori=landscape,rot=180" -playobj /root/yiyezi.mp4 # 播放视频（横向 and 旋转180°）
  /usr/bin/nlplay -playctl "ori=portrait,rot=270" -playobj /root/yiyezi.mp4 # 播放视频（纵向 and 旋转270°）
- /usr/bin/nlplay -playctl "dur=10" -playloop -playobj "/root/a.png,/root/b.png" # 序列播放（每张图片持续10秒 and 循环播放）
- /usr/bin/nlplay -playctl "dur=10" -playloop -playobj "/root/a.mp4,/root/b.png" # 序列播放（每张图片持续10秒 and 循环播放）
+ /usr/bin/nlplay -playctl "dur=10" -playloop -playobj "/root/a.png,/root/b.png" # 序列播放（每张图片持续10秒 and 多循环）
+ /usr/bin/nlplay -playctl "dur=10" -playloop -playobj "/root/a.mp4,/root/b.png" # 序列播放（每张图片持续10秒 and 多循环）
  ```
 
 ---
