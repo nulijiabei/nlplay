@@ -73,9 +73,9 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  | -fps | 30 | 帧率设置 |
  | -turbo | 未开启 | 高性能模式（开启时多线程解码） |
  | -mute | 未开启 | 静音设置 |
- | -cpuid | 未开启 | CPUID |
+ | -cpuid | 无 | CPUID |
  | -welcome | 未设置 | 自定义欢迎页 |
- | -version | 未开启 | 版本号 |
+ | -version | 无 | 版本号 |
  | -playobj | 未设置 | 素材路径 |
  | -playloop | 未开启 | 循环播放 |
 
