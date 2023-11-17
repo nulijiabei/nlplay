@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#/usr/bin/nlplay -version 
+#/usr/bin/nlplay -cpuid
+#/usr/bin/nlplay -playobj /root/hi.png
+#/usr/bin/nlplay -playobj /root/yiyezi.mp4
+#/usr/bin/nlplay -playobj "/root/a.jpg,/root/b.png" 
+#/usr/bin/nlplay -playloop -playobj /root/yiyezi.mp4
+#/usr/bin/nlplay -mute -playloop -playobj /root/yiyezi.mp4
+#/usr/bin/nlplay -playloop -playobj "/root/a.jpg,/root/b.png"
+#/usr/bin/nlplay -turbo -mute -playloop -playobj /root/yiyezi.mp4
+
+export LD_LIBRARY_PATH=/usr/local/lib/
+/usr/bin/nlplay -fps 24 -turbo -playobj /root/yiyezi.mp4 -playloop -mute

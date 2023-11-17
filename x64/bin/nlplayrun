@@ -11,4 +11,4 @@
 #/usr/bin/nlplay -turbo -mute -playloop -playobj /root/yiyezi.mp4
 
 export LD_LIBRARY_PATH=/usr/local/lib/
-/usr/bin/nlplay -playobj /root/yiyezi.mp4 -playloop -mute
+/usr/bin/nlplay -fps 24 -turbo -playobj /root/yiyezi.mp4 -playloop -mute
