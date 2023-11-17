@@ -94,7 +94,7 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  | 参数 | 键 | 值 | 默认 | 说明 |
  | --- | --- | --- | --- | --- |
  | -playctl | ori | landscape/portrait | landscape | 横向/纵向（orientation） | 
- | ↑ | rot | landscape(0/180)、portrait(90/270) | 0 | 旋转（rotate） | 
+ | ↑ | rot | 0/180（landscape）、90/270（portrait） | 0 | 旋转（rotate） | 
  | ↑ | dur | 秒 | 5 | 持续（duration） | 
  
  ```
