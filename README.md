@@ -100,7 +100,7 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  ```
  nlplay -playctl "ori=landscape,rot=180" -playobj /root/yiyezi.mp4 # 播放视频（横向 and 旋转180°）
  nlplay -playctl "ori=portrait,rot=270" -playobj /root/yiyezi.mp4 # 播放视频（纵向 and 旋转270°）
- nlplay -playctl "dur=10" -playloop -playobj "/root/a.png,/root/b.png" # 轮播图片（多张图片 and 每张图片持续10秒 and 多循环）
+ nlplay -playctl "dur=10" -playloop -playobj "/root/a.png,/root/b.png" # 轮播图片（多张图片 and 持续10秒 and 多循环）
  ```
 
 ---
