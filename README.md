@@ -60,8 +60,8 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  > 注意：请您在(root)用户下进行安装, 安装完成后请重启您的树莓派后再运行 ...  
  
  ```
- git clone https://github.com/nulijiabei/nlplay.git # (Master分支最新版本)
- git clone https://gitee.com/nljb/nlplay.git # (Master分支最新版本)
+ git clone https://github.com/nulijiabei/nlplay.git # (最新版本)
+ git clone https://gitee.com/nljb/nlplay.git # (最新版本)
  ```
 
 ---
