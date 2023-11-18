@@ -121,11 +121,15 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
  > 配置文件（/etc/asound.conf）指定音频输出模式  
  
  ```
- // 0:3.5MM | 1:HDMI
  defaults.pcm.card 0 
  defaults.pcm.device 0
  defaults.ctl.card 0
  ```
+
+ | 设备 | 3.5MM | HDMI1 | HDMI2 | 
+ | --- | --- | --- | --- | 
+ | Raspberry Pi 3 Model B+ | card=1, device=0 | card=0, device=0 | 无 | 
+ | Raspberry Pi 4 Model B | card=2, device=0 | card=0, device=0 | card=1, device=0 | 
  
 ---
 ### 许可信息
