@@ -18,12 +18,12 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
 
 | 硬件 | 系统 | 测试 |
 | --- | --- | --- |
-| Raspberry Pi Zero | Raspberry Pi OS with desktop | 未测试 |
-| Raspberry Pi Zero 2 | Raspberry Pi OS with desktop | 未测试 |
-| Raspberry Pi 2 Model B | Raspberry Pi OS with desktop | 未测试 |
-| Raspberry Pi 3 Model B+ | Raspberry Pi OS with desktop | 已测试 |
-| Raspberry Pi 4 Model B | Raspberry Pi OS with desktop (64-bit) | 已测试 |
-| Raspberry Pi 5 | Raspberry Pi OS with desktop (64-bit) | 未测试 |
+| Raspberry Pi Zero 2 W   | Raspberry Pi OS with desktop   | 未测试 |
+| Raspberry Pi 3 Model B  | Raspberry Pi OS with desktop   | 已测试 |
+| Raspberry Pi 3 Model B+ | Raspberry Pi OS with desktop   | 已测试 |
+| Raspberry Pi 3 Model A+ | Raspberry Pi OS with desktop   | 已测试 |
+| Raspberry Pi 4 Model B  | Raspberry Pi OS with desktop   | 已测试 |
+| Raspberry Pi 5          | Raspberry Pi OS with desktop   | 未测试 |
 
 ***理论上支持所有树莓派，但是经过测试的树莓派只有上面几款***
 
