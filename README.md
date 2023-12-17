@@ -32,6 +32,8 @@ Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器�
 
 | 系统版本 | 发布日期 | 测试版本 | 测试状态 |
 | --- | --- | --- | --- |
+| Raspberry Pi OS with desktop          | 2023-12-05 | - | 已测试 |
+| Raspberry Pi OS with desktop (64-bit) | 2023-12-05 | - | 已测试 |
 | Raspberry Pi OS with desktop          | 2023-10-10 | - | 已测试 |
 | Raspberry Pi OS with desktop (64-bit) | 2023-10-10 | - | 已测试 |
 
