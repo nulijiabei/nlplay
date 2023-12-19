@@ -1,6 +1,6 @@
 # nlplay
 Media player used on Raspberry Pi（在树莓派上使用的多媒体播放器）  
-如有相关技术咨询可以联系我（QQ: 328292201 或 Email: nljb@qq.com）  
+如有相关技术咨询可以联系我（QQ: 328292201）  
 
 ---
 
